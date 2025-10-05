@@ -49,6 +49,9 @@ The ERP simulation and data generation were built entirely with **Python**, usin
 - **Pandas**: DataFrames for table creation, manipulation, and CSV export.  
 - **String**: Character operations for generating codes and IDs.
 
+<img width="330" height="193" alt="image" src="https://github.com/user-attachments/assets/170d2a22-d997-4c55-90ce-33362e081d85" />
+
+
 ---
 
 ## 💾 Data Generation Process
@@ -59,28 +62,39 @@ The data was **synthetically generated** to simulate real healthcare operations.
 
 Some datasets had to be created manually to ensure authenticity of the data:
 
-#### Department Data
-- Department Names
-- Department Location
-- 
+#### Department and Allergies Data
+- I created Department and Allergies data as shown below.
 
-*Screenshot Placeholder:*  
-`![Patient Data Sample](screenshots/patient_data.png)`
+##### Example Screenshot
 
-#### Staff Data
-- Staff IDs for doctors, nurses, and administrative staff  
-- Departments and roles assigned manually for realism  
-- Hire dates and salaries  
+<img width="545" height="442" alt="image" src="https://github.com/user-attachments/assets/0ff9422b-4e9f-4444-9bd7-797bea02b7e5" />
 
-*Screenshot Placeholder:*  
-`![Staff Data Sample](screenshots/staff_data.png)`
+#### Equipment Data
+- For this I had to be a little creative. So I created an entire equipment schema like shown below.
 
-#### Appointments & Visits
-- Key appointment schedules and visit records  
-- Linked manually to staff and rooms  
+##### Example Screenshot
 
-*Screenshot Placeholder:*  
-`![Appointments Sample](screenshots/appointments.png)`
+<img width="635" height="480" alt="image" src="https://github.com/user-attachments/assets/97e56bf2-a0ea-4c7f-9193-2eb099e19989" />
+
+<img width="629" height="508" alt="image" src="https://github.com/user-attachments/assets/e7fe59fa-f26e-4fd5-a19d-1276217b2367" />
+
+#### Codes & Descriptions
+- I created all the codes and decriptions which I then used random.choice to populate the records.
+
+##### Example Screenshot
+
+<img width="532" height="48" alt="image" src="https://github.com/user-attachments/assets/b52665ac-9ab6-4f0a-84eb-fa324b595ad6" />
+
+<img width="455" height="49" alt="image" src="https://github.com/user-attachments/assets/4ac93b50-5c80-4840-bbd7-340fe34afcff" />
+
+#### Medicine Names
+- For this, it was a mixture of using python libraries to generate names and then adding specific strings to make it sound more medicine-like.
+
+##### Example Screenshot
+
+<img width="501" height="203" alt="image" src="https://github.com/user-attachments/assets/67269a3e-9236-47a2-84a6-cfee0f8fb2f6" />
+
+<img width="433" height="34" alt="image" src="https://github.com/user-attachments/assets/d283176a-c8f8-4737-ac6b-fb3ba334b826" />
 
 ---
 
