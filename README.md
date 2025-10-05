@@ -102,30 +102,22 @@ Some datasets had to be created manually to ensure authenticity of the data:
 
 Other datasets were generated programmatically using Python libraries to create large-scale synthetic data:
 
-#### Medicines & Treatments
-- Random medicine names using Faker + custom lists  
-- Medicine types, forms, and strength values  
-- Assigned medicines to visits via medical teams  
-- Treatment records linked to diagnoses  
+#### Patient & Company Names
+- In order to generate synthetic data I used Faker library.
+- To populate that generated data I used random, numpy and pandas.
 
-*Screenshot Placeholder:*  
-`![Medicine & Treatment Sample](screenshots/medicines_treatments.png)`
+##### Example Screenshot
 
-#### Billing & Payments
-- Generated bills for each patient visit  
-- Random payment terms, amounts, and methods  
-- Vendor payments for supplies  
+<img width="761" height="499" alt="image" src="https://github.com/user-attachments/assets/2f5c68bb-4eb1-4d92-8ca7-59132d0c1b91" />
 
-*Screenshot Placeholder:*  
-`![Billing & Payments Sample](screenshots/billing_payments.png)`
+#### Unique Identifiers
+- To generate these, I used random.randint to generate random integers and string.ascii to generate alphabets.
 
-#### Inventory & Supplies
-- Medicines and equipment linked to supply records  
-- Random batch numbers, quantities, warehouse locations  
-- Daily inventory ingestion, receipt, issue, and verification  
+##### Example Screenshot
 
-*Screenshot Placeholder:*  
-`![Inventory Sample](screenshots/inventory.png)`
+<img width="427" height="155" alt="image" src="https://github.com/user-attachments/assets/cfdc62de-fc42-4456-b054-2fc8ac451aaa" />
+
+---
 
 ## 🔗 Relationships & Links
 The ERP **mirrors real-world relationships**, such as:
