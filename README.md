@@ -53,43 +53,42 @@ The ERP simulation and data generation were built entirely with **Python**, usin
 
 ## 💾 Data Generation Process
 
-The data was **synthetically generated** to emulate a real healthcare environment.
+The data was **synthetically generated** to simulate real healthcare operations. Two approaches were used:
 
-### 1. Patient Data
-- Generated **unique patient IDs**  
-- Random first, middle, and last names  
-- Realistic email addresses and phone numbers  
-- Date of birth covering multiple age ranges  
-- Blood type, gender codes, marital status  
-- Emergency contact information  
+### 1. Manual Data Generation
+
+Some datasets had to be created manually to ensure authenticity of the data:
+
+#### Department Data
+- Department Names
+- Department Location
+- 
 
 *Screenshot Placeholder:*  
 `![Patient Data Sample](screenshots/patient_data.png)`
 
----
-
-### 2. Staff Data
+#### Staff Data
 - Staff IDs for doctors, nurses, and administrative staff  
-- Assigned departments and roles randomly  
-- Salaries, hire dates, and role assignment dates  
+- Departments and roles assigned manually for realism  
+- Hire dates and salaries  
 
 *Screenshot Placeholder:*  
 `![Staff Data Sample](screenshots/staff_data.png)`
 
----
-
-### 3. Appointments & Visits
-- Linked patients to staff and doctors  
-- Randomized appointment times within working hours  
-- Visit IDs connected to medical teams and rooms  
-- Status codes for scheduled, completed, or canceled visits  
+#### Appointments & Visits
+- Key appointment schedules and visit records  
+- Linked manually to staff and rooms  
 
 *Screenshot Placeholder:*  
 `![Appointments Sample](screenshots/appointments.png)`
 
 ---
 
-### 4. Medicines & Treatments
+### 2. Python-Based Data Generation
+
+Other datasets were generated programmatically using Python libraries to create large-scale synthetic data:
+
+#### Medicines & Treatments
 - Random medicine names using Faker + custom lists  
 - Medicine types, forms, and strength values  
 - Assigned medicines to visits via medical teams  
@@ -98,9 +97,7 @@ The data was **synthetically generated** to emulate a real healthcare environmen
 *Screenshot Placeholder:*  
 `![Medicine & Treatment Sample](screenshots/medicines_treatments.png)`
 
----
-
-### 5. Billing & Payments
+#### Billing & Payments
 - Generated bills for each patient visit  
 - Random payment terms, amounts, and methods  
 - Vendor payments for supplies  
@@ -108,17 +105,13 @@ The data was **synthetically generated** to emulate a real healthcare environmen
 *Screenshot Placeholder:*  
 `![Billing & Payments Sample](screenshots/billing_payments.png)`
 
----
-
-### 6. Inventory & Supplies
-- Linked medicines and equipment to supply records  
-- Random batch numbers, quantities, and warehouse locations  
+#### Inventory & Supplies
+- Medicines and equipment linked to supply records  
+- Random batch numbers, quantities, warehouse locations  
 - Daily inventory ingestion, receipt, issue, and verification  
 
 *Screenshot Placeholder:*  
 `![Inventory Sample](screenshots/inventory.png)`
-
----
 
 ## 🔗 Relationships & Links
 The ERP **mirrors real-world relationships**, such as:
