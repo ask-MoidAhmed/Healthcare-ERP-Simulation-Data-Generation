@@ -120,16 +120,7 @@ Other datasets were generated programmatically using Python libraries to create 
 ---
 
 ## 🔗 Relationships & Links
-The ERP **mirrors real-world relationships**, such as:
-
-- Patients → Appointments → Visits → Diagnoses → Treatments  
-- Medical Teams → Staff → Visits  
-- Medicines → TMMD (medicine administration) → Visits  
-- Inventory → Supplies → Vendor → Payments  
-
-> A full ERD diagram can be added here in the future.
+For the full relationships with column names and their description, please download the "ERD Relationship Text" file.
 
 ---
-
-## 📁 Repository Structure
 
