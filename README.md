@@ -1,5 +1,7 @@
 # ProactiveHealth: Healthcare ERP Simulation
 
+Dataset Link: https://www.kaggle.com/datasets/moid1234/health-care-data-set-20-tables
+
 👩‍⚕️ **Project Overview**  
 ProactiveHealth is a simulated Healthcare ERP designed to emulate a fully structured healthcare system. It includes **patients, staff, appointments, billing, medical teams, medicines, inventory, treatments, and more**. The focus of this project is **creating relational tables and generating realistic synthetic data** to mimic a working ERP system.
 
